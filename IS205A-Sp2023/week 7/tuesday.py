@@ -6,12 +6,16 @@ infile.close()
 # # print(text.split("\n"))
 # # print(text)
 # for something in text.split("\n"):
-#     print("WAT??", something)
+#     print("WAT??", something)-
+
+# print(text)
 
 infile = open("Three-years-in-europe.txt", 'r',
               encoding='utf-8')
 lines = infile.readlines()
 infile.close()
+
+# print(lines)
 
 # print(lines)
 
@@ -26,3 +30,9 @@ for l in lines:
     outfile.write(output)
 
 outfile.close()
+
+
+infile = open('Three-years-in-europe.txt', 'r', encoding='utf-8')
+
+for line in infile:
+    print(line)

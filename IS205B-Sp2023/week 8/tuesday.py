@@ -34,3 +34,12 @@ for l in lines:
     # outfile.write('\n')
 
 outfile.close()
+
+
+
+infile = open('Three-years-in-europe.txt', 'r', encoding='utf-8')
+
+for line in infile:
+    print(line)
+
+infile.close()
