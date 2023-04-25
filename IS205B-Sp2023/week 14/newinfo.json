@@ -1,0 +1,26 @@
+[
+    {
+        "id": "001",
+        "x": "2",
+        "name": "Chuck",
+        "weight": 98,
+        "visits": {
+            "num_visits": 3,
+            "notes": [
+                "first visit",
+                "gave shots",
+                "ate a ball"
+            ]
+        }
+    },
+    {
+        "id": "009",
+        "x": "7",
+        "name": "Brent",
+        "weight": 19,
+        "visits": {
+            "num_visits": 0,
+            "notes": []
+        }
+    }
+]
