@@ -12,7 +12,6 @@ data = '''
   }
 ]'''
 
-
 info = json.loads(data)
 
 print(info)
